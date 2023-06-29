@@ -61,7 +61,7 @@ const App = () => {
 const embedFullpageHtmlCode = (chatflowid) => {
     return `<flowise-fullchatbot></flowise-fullchatbot>
 <script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    import Chatbot from "https://cdn.jsdelivr.net/npm/roxie-embed/dist/web.js"
     Chatbot.initFull({
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
