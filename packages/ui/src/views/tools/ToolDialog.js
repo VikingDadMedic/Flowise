@@ -31,7 +31,7 @@ import useNotifier from 'utils/useNotifier'
 import { generateRandomGradient } from 'utils/genericHelper'
 
 const exampleAPIFunc = `/*
-* You can use any libraries imported in Flowise
+* You can use any libraries imported in Roxie
 * You can use properties specified in Output Schema as variables. Ex: Property = userid, Variable = $userid
 * Must return a string value at the end of function
 */
